@@ -1,0 +1,49 @@
+{
+  "formatVersion": 1,
+  "menu": {
+    "settings": {
+      "label": "Config.settings",
+      "formFields": {
+        "host": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.host",
+          "options": {}
+        },
+        "port": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.port",
+          "options": {}
+        },
+        "username": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.username",
+          "options": {}
+        },
+        "password": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.password",
+          "options": {
+            "isPassword": true
+          }
+        },
+        "folderpath": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.folderPath",
+          "options": {}
+        },
+        "cronactive": {
+          "type": "checkBox",
+          "required": false,
+          "defaultValue": false,
+          "label": "Config.importCron",
+          "options": {}
+        }
+      }
+    }
+  }
+}

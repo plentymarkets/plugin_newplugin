@@ -1,0 +1,32 @@
+{
+    "name": "newplugin",
+    "marketplaceName":
+    {
+        "de": "newplugin",
+        "en": "newplugin"
+    },
+    "platform" : {
+        "php" : ">=7.3,<8.1"
+      },
+    "namespace": "newplugin",
+    "author": "plentysystems AG",
+    "type": "backend",
+    "version": "1.0.0",
+    "isClosedSource": true,
+    "authorIcon": "icon_author_xs.png",
+    "pluginIcon": "icon_plugin_xs.png",
+    "email": "info@plentymarkets.com",
+    "phone": "",
+    "description": "newplugin",
+    "shortDescription": {
+        "de": "newplugin short description",
+        "en": "newplugin short description"
+    },
+    "keywords": ["newplugin"],
+    "categories": ["4124"],
+    "serviceProvider": "newplugin\\Providers\\PluginServiceProvider",
+    "runOnBuild": [],
+    "dependencies": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
