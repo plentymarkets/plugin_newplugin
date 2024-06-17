@@ -4,13 +4,11 @@ namespace newplugin\Providers;
 use ErrorException;
 use Exception;
 use Plenty\Modules\Cron\Services\CronContainer;
-use Plenty\Modules\EventProcedures\Services\Entries\ProcedureEntry;
 use Plenty\Modules\EventProcedures\Services\EventProceduresService;
 use Plenty\Modules\Wizard\Contracts\WizardContainerContract;
 use Plenty\Plugin\Application;
 use Plenty\Plugin\ServiceProvider;
-use newplugin\Assistants\newpluginAssistant;
-use newplugin\Crons\ProcessFtpFilesCron;
+
 
 /**
  * Class PluginServiceProvider
